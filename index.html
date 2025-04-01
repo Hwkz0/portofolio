@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduard Drimus Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">ED</div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="assets/profile.jpeg" alt="Drimus Eduard">
+                    <div class="social-links">
+                        <a href="https://github.com/Hwkz0" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/eduard-drimus/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:eduardddrimus@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <h1>Drimus Eduard-Paul</h1>
+                    <h2>Robotics Engineering Student</h2>
+                    <p>Passionate about robotics and software, specialized in optimization and ETL</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary">View Projects</a>
+                        <a href="assets/resume.pdf" class="btn secondary" target="_blank">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="section-underline"></div>
+            <div class="about-content">
+                <p>Hello! I'm a robotics engineering student in my third year. I have a background in quality assurance and I love developing software solutions as a hobby.</p>
+                <p>I'm passionate about engineering, software development and data. I love to make things more efficient, and more adaptable to real-world environments.</p>
+            
+                <div class="skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+
+                        <div class="skill-category">
+                            <h4>Programming & Data</h4>
+                            <ul>
+                                <li>Python, Java, C++</li>
+                                <li>MySQL, Excel</li>
+                                <li>React, Flutter</li>
+                                <li>ETL</li>
+                            </ul>
+                        </div>
+                    
+                        <div class="skill-category">
+                            <h4>Robotics Engineering</h4>
+                            <ul>
+                                <li>Artificial Intelligence</li>
+                                <li>Computer Vision</li>
+                                <li>Microcontrollers</li>
+                                <li>CNC Programming</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Quality & Problem Solving</h4>
+                            <ul>
+                                <li>8D Problem Solving</li>
+                                <li>SAP & Jira Ticketing</li>
+                                <li>FMEA</li>
+                                <li>Root Cause Analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="section-underline"></div>
+            <div class="carousel-container">
+                <button class="carousel-button prev" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                <div class="projects-carousel">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/computer_vision.gif" alt="Computer Vision System">
+                        </div>
+                        <div class="project-info">
+                            <h3>Computer Vision System for Robotic Arm</h3>
+                            <p>Created a real-time object detection and tracking system using MicroPython, operating a robotic arm to classify objects based on color.</p>
+                            <div class="project-tags">
+                                <span>Micro Python</span>
+                                <span>Arduino</span>
+                                <span>Machine Learning</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Hwkz0/robot_AI_vision" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://didatec-my.sharepoint.com/:v:/g/personal/drimus_fe_eduard_student_utcluj_ro/EZ-4OyQ6tX9FttpFhF0OJZIBo-m3Eod-Qm33jDV_tmVllw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iqhSpE" target="_blank"><i class="fas fa-external-link-alt"></i> Video </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/encryptor.svg" alt="Encryptors and Cyphers">
+                        </div>
+                        <div class="project-info">
+                            <h3>Encryptors and Cyphers</h3>
+                            <p>Developed a suite of file encryptors and cyphers. Designed to encrypt files using various algorithms, ensuring protection against unauthorised access. </p>
+                            <div class="project-tags">
+                                <span>C++</span>
+                                <span>Encryption</span> 
+                                <span>Cybersecurity</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Hwkz0/CustomROTEncryptor" target="_blank"><i class="fab fa-github"></i> ROT</a>
+                                <a href="https://github.com/Hwkz0/FileEncryptor" target="_blank"><i class="fab fa-github"></i> File</a>
+                                <a href="https://github.com/Hwkz0/CaesarCypher" target="_blank"><i class="fab fa-github"></i> Cypher</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/fullstack.png" alt="FullStack JobBoard">
+                        </div>
+                        <div class="project-info">
+                            <h3>FullStack JobBoard</h3>
+                            <p>Developed a fullstack JobBoard Website using Java for the backend and React for the frontend. The platform allows users to search for jobs, apply, and post listings.</p>
+                            <div class="project-tags">
+                                <span>Java</span>
+                                <span>React</span>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Hwkz0/Project_s" target="_blank"><i class="fab fa-github"></i> Code private presentation</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/python_tkinter.png" alt="Python Tkinter">
+                        </div>
+                        <div class="project-info">
+                            <h3>Python TKInter UI</h3>
+                            <p>Developed a python application for managing a dataset backend, implementing CRUD functionlaities. The app uses TKinter for a simple user interface and stores data in CSV files for easy management.</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>CRUD</span>
+                                <span>CSV Data Management</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Hwkz0/python_CRUD_TKinter" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/color_mixer.jpg" alt="Color Mixer AWS">
+                        </div>
+                        <div class="project-info">
+                            <h3>Color Mixer AWS-Color</h3>
+                            <p> Created a color mixer project using AWS-Color package, allowing users to blend colors and generate shades. The project utilizes SOLID programming principles to ensure clean, maintainable and scalable code. </p>
+                            <div class="project-tags">
+                                <span>Java</span>
+                                <span>SOLID</span>
+                                <span>AWS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Hwkz0/color-mixer_AWS-Color" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-button next" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="section-underline"></div>
+            <div class="resume-content">
+                <div class="resume-actions">
+                    <a href="assets/resume.pdf" class="btn primary" target="_blank"><i class="fas fa-download"></i> Download PDF</a>
+                </div>
+                <div class="resume-preview">
+                    <div class="resume-section">
+                        <h3>Education</h3>
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <h4>Robotics and Mechatronics English </h4>
+                                <span class="resume-date">2022 - 2026</span>
+                            </div>
+                            <p class="resume-location">Technical University of Cluj-Napoca </p>
+                            <p>Specialization: "Artificial intelligence in Industrial Robots". </p>
+                            <p>Grade 9.12</p>
+                        </div>
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <h4>Computer Science English Bilingual</h4>
+                                <span class="resume-date">2014 - 2018</span>
+                            </div>
+                            <p class="resume-location">Dragos Voda National College</p>
+                            <p>Computer Science English Bilingual Specialization College degree.</p>
+                            <p>Grade 8.2</p>
+                        </div>
+                    </div>
+                    <div class="resume-section">
+                        <h3>Work Experience</h3>
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <h4>Working Student in Customer Quality Management</h4>
+                                <span class="resume-date">May 2024 - February 2025</span>
+                            </div>
+                            <p class="resume-location">Robert Bosch Romania</p>
+                            <ul>
+                                <li>Contributed to self-driving technology projects, supporting with quality control topics, with a proactive mindset and dedication towards improvement</li>
+                                <li>Developed automated Excel-based data processing flow generation, reducing reporting time by 40%, saving 5+ hours/week for the team</li>
+                                <li>Managed and analyzed quality reports in SAP, applying ETL processes  (Extract, Transform, Load)</li>
+                                <li>Tracked and resolved technical issues using Jira, collaborating with product/process engineers</li>
+                                <li> Applied 8D Problem-Solving Methodologies for systemic failure troubleshooting, including FMEA (Failure Mode and Effects Analysis)</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <h4>Technical Quality Assurance</h4>
+                                <span class="resume-date">February 2021 - April 2022 </span>
+                            </div>
+                            <p class="resume-location"> SC AVIVA</p>
+                            <ul>
+                                <li>Performed detailed technical inspections on 20+ product processes to test compliance with engineering drawings ensuring adherence to specifications</li>
+                                <li>Documented and analysed daily quality trends for product compliance, processing data from a sample of ~2000 products to identify patterns and optimize defect detection</li>
+                                <li>Led an initiative for material waste reduction by re-purposing defective wood products</li>
+                                <li>Co-founded a new production sector, reducing product loss by ~30%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="section-underline"></div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:eduardddrimus@gmail.com">eduardddrimus@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/eduard-drimus/" target="_blank">https://www.linkedin.com/in/eduard-drimus/</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/Hwkz0" target="_blank">https://github.com/Hwkz0</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Drimus Eduard-Paul. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
